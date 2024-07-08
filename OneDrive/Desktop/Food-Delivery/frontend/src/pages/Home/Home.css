@@ -1,0 +1,20 @@
+.go-top{
+  position: fixed;
+  width: 30px;
+  height: 32px;
+  z-index:2 ;
+  left: 93%;
+  top:88%;
+  font-size: 30px;
+  border-radius: 6px;
+  border: none;
+  color: tomato;
+  outline: 1px solid tomato;
+  background-color: transparent;
+  scroll-behavior: smooth;
+}
+@media(max-width:500px){
+  .go-top{ left: 88%;
+    background-color: white;
+  }
+}
