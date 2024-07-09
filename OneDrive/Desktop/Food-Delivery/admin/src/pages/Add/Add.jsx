@@ -69,19 +69,20 @@ const Add = ({url}) => {
           <div className="add-category flex-col">
             <p>Product Category</p>
             <select onChange={onChangeHandler}name="category">
-              <option value="Salad">Salad</option>
+              <option value="Biriyani">Biriyani</option>
               <option value="Rolls">Rolls</option>
               <option value="Desert">Desert</option>
-              <option value="Sandwich">Sandwich</option>
-              <option value="Cacke">Cacke</option>
-              <option value="Pure Veg">Pure Veg</option>
-              <option value="Pasta">Pasta</option>
+              <option value="Gravy Items">Gravy Items</option>
+              <option value="Roti & Paratha">Roti & Paratha</option>
+              <option value="Shouth Indian">Shouth Indian</option>
+              <option value="Rice & Pulao">Rice & Pulao</option>
+              <option value="Fry Items">Fry Items</option>
               <option value="Noodles">Noodles</option>
             </select>
           </div>
           <div className="add-price flex-col">
             <p>Product Price</p>
-            <input onChange={onChangeHandler} value={data.price} type="Number" name="price" placeholder="$20"/>
+            <input onChange={onChangeHandler} value={data.price} type="Number" name="price" placeholder="₹100"/>
           </div>
         </div>
         <button type="submit" className="add-btn">ADD</button>

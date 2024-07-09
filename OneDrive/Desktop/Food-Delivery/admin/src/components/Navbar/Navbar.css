@@ -10,3 +10,8 @@
 .navbar .profile{
   width: 40px;
 }
+.text{
+  color: rgb(21, 5, 2);
+  font-weight: 500;
+  font-size: 20px;
+}

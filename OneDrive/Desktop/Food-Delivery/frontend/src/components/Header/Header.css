@@ -1,9 +1,10 @@
 .header{
   height: 34vw;
   margin: 30px auto;
-  background:url('C:\Users\biswa\OneDrive\Desktop\Food-Delivery\frontend\src\assets\header_img.png')no-repeat ;
-  background-size: contain;
+  background:url('C:\Users\biswa\OneDrive\Desktop\Food-Delivery\frontend\src\assets\header.jpg')no-repeat ;
+  background-size: cover;
   position: relative;
+  border-radius: 15px;
 }
 .header-contents{
   position: absolute;
